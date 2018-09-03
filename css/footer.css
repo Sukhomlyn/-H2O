@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+footer {
+	float: left;
+	min-height: 40px;
+	width: 70%;
+	padding: 1%;
+	margin-left: 14%;
+    background: rgba(255, 255, 255, 0.2);
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+footer #social {
+	float: left;
+	width: 35%;
+}
+
+footer #social a img {
+	height: 40px;
+	width: 40px;
+}
+
+footer #middle {
+	float: left;
+	width: 30%;
+}
+
+footer #reassurance {
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+footer #reassurance #label {
+	font-size: 1.5em;
+	font-family: Verdana, sans-serif;
+}

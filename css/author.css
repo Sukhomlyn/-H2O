@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#author #personality {
+	float: left;
+	width: 100%;
+}
+
+#author #personality #infoMyself {
+	float: left;
+	width: 50%;
+}
+
+#author #personality #foto {
+	float: left;
+	width: 50%;
+}
+
+#author #objection {
+	float: left;
+	width: 100%;
+}
+
+#author #education {
+	float: left;
+	width: 100%;
+}
+
+#author #experience {
+	float: left;
+	width: 100%;
+}
+
+#author #skills {
+	float: left;
+	width: 100%;
+}
+
+#author #skills #it {
+	float: left;
+	width: 50%;
+}
+
+#author #skills #builder {
+	float: left;
+	width: 50%;
+}
+
+#author #additional {
+	float: left;
+	width: 100%;
+}
+
+#author #interests {
+	float: left;
+	width: 100%;
+}

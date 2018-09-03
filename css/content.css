@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.content {
+	float: left;
+	margin-left: 14%;
+	min-height: calc(100% - 222px);
+	width: 70%;
+	padding: 1%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}

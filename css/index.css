@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: Sans,sans-serif;
+    background: rgb(63, 191, 191);
+}
+
+a {
+	text-decoration: none;
+}

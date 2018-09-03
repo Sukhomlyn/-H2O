@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+article {
+	float: left;
+	width: 70%;
+	margin-left: 14%;
+	padding: 1%;
+	background: rgba(255, 255, 255, 0.2);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+article h1 {
+	text-align: center;
+	font-size: 22px;
+}
+
+article h2 {
+	text-indent: 6%;
+	font-size: 20px;
+}
+
+article #area{
+	width: 200px;
+}
+
+article #building {
+	width: 200px;
+}
+
+article #residents{
+	width: 200px;
+}
+
+article #consumers{
+	width: 200px;
+}
+
+article h3 {
+	text-indent: 4%;
+	font-size: 18px;
+}
+
+article h4 {
+	text-indent: 2%;
+	font-size: 16px;
+}
+
+article p {
+	margin-left: 4%;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+label{
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 2%;
+}
+/*стили для части расчет по приборам*/
+#kindHouse{
+	width: 300px;
+}
+
+h5{
+	margin-top: 8px;
+	height: 14px;
+}
+
+#calc{
+	margin-top: 5px;
+}
+
+#clear{
+	margin-top: 5px;
+}
+
+/*стили для вывода табличных данных*/
+#generalWater {
+	width: 50px;
+	height: 14px;
+}
+
+#restart{
+	margin-top: 5px;
+}
+
+#hotWater {
+	width: 50px;
+	height: 14px;
+}
+
+#coefficient {
+	width: 50px;
+	height: 14px;
+}
+
+ #timelosses {
+	width: 50px;
+	height: 14px;
+}
+/*добавление не стандартного оборудования*/
+#addDevice{
+	width: 100%;
+}
+
+#addDevice #plus{
+	width: 20px;
+	height: 20px;
+	margin: 8px;
+}
+
+#addDevice #message{
+	margin-left: 2%;
+	height: 20px;
+}
+
+#addDevice #subjects{
+	width: 100%;
+	margin-top: 20px;
+}
+#addDevice #subjects #numberSubjects{
+	float: left;
+	width: 50%;
+}
+
+#addDevice #subjects #consumption{
+	float: left;
+	width: 50%;
+}
+
+#result{
+	margin-top: 5px;
+}
+/*стили для инпутов*/
+#device input{
+	width: 70px;
+}

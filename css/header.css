@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+header {
+	float: left;
+	min-height: auto;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid black;
+}
+
+.hide{
+	display: none;
+}
+
+header #topLine{
+	float: left;
+	min-height: 40px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+header #topLine #excerption {
+	float: left;
+	min-height: 40px;
+	width: 50%;
+}
+
+header #topLine #excerption span {
+	font-size: 1.9em;
+	font-family: Georgia, sans-serif;
+    margin-left: 10px;	
+}
+
+header #topLine #registry {
+	float: left;
+	min-height: 40px;
+	width: 50%;
+}
+
+header #topLine #registry a {
+	float: right;
+	margin: 4px;
+	border: 2px solid rgb(63, 191, 63);
+	border-radius: 5px;
+	padding: 5px;
+	margin-right: 5px;
+	background: rgb(63, 191, 63);
+	color: rgb(255, 255, 255);
+	transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+}
+
+header #topLine #registry a:hover {
+	border: 2px solid rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+	color: rgb(63, 191, 63);
+	transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+}
+/*кнопка выхода*/
+header #topLine #exit{
+	float: right;
+	min-height: 40px;
+	width: 20%;
+}
+
+header #topLine #exit a{
+	float: right;
+	margin: 4px;
+	border: 2px solid rgb(63, 191, 63);
+	border-radius: 5px;
+	padding: 5px;
+	margin-right: 5px;
+	background: rgb(63, 191, 63);
+	color: rgb(255, 255, 255);
+	transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+}
+
+header #topLine #exit a:hover{
+	border: 2px solid rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+	color: rgb(63, 191, 63);
+	transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+}
+
+/*стили для формы входа на сайту*/
+#comeIn {
+  float: left;
+  width: 100%;
+  height: 20px;
+  border-top: 1px solid black;
+}
+
+#error{
+	padding-left: 1%;
+	float: left;
+	width: calc(99% - 295px);
+	height: 20px;
+	color: red;
+	font-size: 18px;
+}
+
+header #topLine #signIn #formSignIn img{
+	width: 16px;
+	height: 10px;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+#signIn{
+	float: left;
+	height: 20px;
+	width: 295px;
+}
+
+#login{
+	width: 100px;
+	height: 16px;
+	border: 0;
+	padding-left: 4px;
+	border-right: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#password{
+	padding-left: 4px;
+	width: 100px;
+	height: 16px;
+	border: 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#submit{
+	font-size: 12px;
+	padding: 2px;
+	margin: 0;
+	background: rgb(63, 191, 63);
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(63, 191, 63);
+	border-radius: 5px 5px 5px 5px;
+}
+
+#submit:hover{
+	background: rgb(255, 255, 255);
+	color: rgb(63, 191, 63);
+	border: 1px solid rgb(255, 255, 255);
+	transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    -o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+}
+
+header #bottomLine {
+	float: left;
+	min-height: 80px;
+	width: 100%;
+}
+
+header #bottomLine #logo {
+	float: left;
+	min-height: 80px;
+	width: 14%;
+	text-align: center;
+}
+
+header #bottomLine #logo .logo {
+	color: white;
+	text-shadow: 10px 10px 14px black;
+	font-family: 'Noto Serif', serif;
+	font-size: 3em;
+	font-stretch: ultra-condensed;
+}
+
+header #bottomLine #menu {
+	float: left;
+	width: 70%;
+	min-height: 80px;
+	text-align: center;
+}
+
+#iconSearch{
+	float: right;
+	width: 16%;
+	height: 80px;
+}
+
+#icons{
+	margin-top: 24%;
+	margin-left: 80%;
+	width: 25px;
+	height: 25px;
+}
+
+header #bottomLine #menu nav {
+	margin-top: 4%;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+header #bottomLine nav a {
+	padding: 5px;
+	color: rgb(191, 63, 63);
+}
+
+header #bottomLine nav a:hover {
+	color: rgb(191, 127, 63);
+	
+}
+/*стили для строки поиск по сайту*/
+#search {
+	float: left;
+	width: 100%;
+	height: 20px;
+	border-top: 1px solid black;
+}
+
+#field {
+	float: right;
+	margin-right: 5px;
+}
+
+#enterText{
+	border: 0;
+	width: 100px;
+	height: 18px;
+	border-radius: 5px 5px 5px 5px;
+}
